@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+.image {
+  width: 700px;
+  height: 500px;
+  margin-right: 20px;
+  border-radius: 40px 0px 0px 40px;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.container p {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+.container p span {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.421);
+}

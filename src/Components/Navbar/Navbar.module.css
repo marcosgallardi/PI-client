@@ -1,0 +1,49 @@
+.nav{
+    max-width: 100%;
+    align-items: center;
+  background-image:url("../../Assets/Images/background-2.avif");
+  height: 90px;
+  padding: 0 20px;
+  margin: -8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+}
+
+.nav li{
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+
+
+.link{
+    font-size: xx-large;
+      align-self: center;
+    align-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.dropdown{
+  
+  margin-top: 8px;
+  text-align: center;
+  padding: 5px;
+  border:solid 3px;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: black;
+  font-size: x-large;
+  font-weight: bold;
+  background-color: transparent;
+}
+

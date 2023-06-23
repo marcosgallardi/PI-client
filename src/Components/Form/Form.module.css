@@ -1,0 +1,108 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.formgroup {
+  margin-bottom: 20px;
+}
+
+.formgroup label {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding-top: 20px;
+}
+
+.formgroup input {
+  display: block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  padding-top: 5px;
+}
+
+.formgroup span {
+  font-size: 20px;
+  font-weight: 8px;
+}
+
+.formgroup .red {
+  color: red;
+}
+
+.formgroup .green {
+  color: rgb(12, 243, 27);
+}
+
+.formgroup option {
+  display: block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  padding-top: 5px;
+}
+
+/* Estilos adicionales para resaltar el campo de entrada cuando está enfocado */
+.formgroup input:focus {
+  outline: none;
+  border-color: #6c63ff;
+  box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
+}
+
+.dropdown {
+  margin-top: 8px;
+  text-align: center;
+  padding: 5px;
+  border: solid 3px;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: black;
+  font-size: x-large;
+  font-weight: bold;
+  background-color: transparent;
+}
+.link {
+  font-size: xx-large;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  margin: 0 1rem;
+}
+.option {
+  display: block;
+  width: 50%;
+  margin-top: 10px;
+  text-align: center;
+  padding: 3px;
+  font-size: 15px;
+  font-weight: 13px;
+  border: solid 3px;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: black;
+
+  background-color: transparent;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+
+  text-align: center;
+  padding: 5px;
+
+  border: solid 3px;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: black;
+  font-size: x-large;
+  font-weight: bold;
+  background-color: transparent;
+}

@@ -1,0 +1,11 @@
+.container {
+  background-image: url("../../Assets/Images/background-6.png");
+  padding: 0;
+  background-size: 40%;
+  background-position:start;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+  margin: -8px;
+  margin-bottom: -27px;
+}
