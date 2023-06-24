@@ -20,6 +20,7 @@ export const Card = ({ id, image, name, temperament, weight }) => {
               <p>
                 <span className={styled.black}>Weight:</span>
                 {weight}
+                Kg
               </p>
             )}
           </div>
