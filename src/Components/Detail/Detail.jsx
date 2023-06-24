@@ -53,16 +53,18 @@ export const Detail = () => {
             {detail.height ? (
               detail.height.metric
             ) : (
-              <span> {detail.altura} Cm</span>
+              <span> {detail.altura}</span>
             )}
+                  Cm
           </p>
           <p>
             Weight:{" "}
             {detail.weight ? (
               detail.weight.metric
             ) : (
-              <span> {detail.peso} Kg</span>
+              <span> {detail.peso}</span>
             )}{" "}
+                  Kg
           </p>
           <p>
             Temperament:{" "}
